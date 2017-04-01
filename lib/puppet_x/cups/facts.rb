@@ -1,5 +1,5 @@
 # encoding: UTF-8
-require File.expand('server', __FILE__)
+require File.expand_path('server', __FILE__)
 
 module PuppetX
   module Cups

@@ -19,7 +19,7 @@ module PuppetX
         private
 
         def query(resource, request)
-          Open3.capture3("ipptool -c ipp://localhost#{resource} /dev/stdin", stdin_data: request)
+          Open3.capture3("ipptool -c ipp://localhost#{resource} /dev/stdin", stdin_data='request')
         rescue
           raise('Error using `ipptool` (CUPS 1.5 and later) command line tool.')
         end

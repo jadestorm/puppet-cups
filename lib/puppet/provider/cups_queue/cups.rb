@@ -1,6 +1,6 @@
 # encoding: UTF-8
-require File.expand_path('../../../puppet_x/cups/facts', __FILE__)
-require File.expand_path('../../../puppet_x/cups/queue', __FILE__)
+require File.expand_path('../../../../puppet_x/cups/facts', __FILE__)
+require File.expand_path('../../../../puppet_x/cups/queue', __FILE__)
 
 Puppet::Type.type(:cups_queue).provide(:cups) do
   @doc = 'Installs and manages CUPS queues.'

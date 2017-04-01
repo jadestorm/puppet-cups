@@ -1,7 +1,7 @@
 # encoding: UTF-8
 require 'erb'
 
-require File.expand_path('server', __FILE__)
+require File.expand_path('../server', __FILE__)
 
 module PuppetX
   module Cups

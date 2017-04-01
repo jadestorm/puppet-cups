@@ -1,5 +1,5 @@
 # encoding: UTF-8
-require_relative 'server'
+require 'server'
 
 module PuppetX
   module Cups

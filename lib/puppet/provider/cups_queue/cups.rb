@@ -1,6 +1,6 @@
 # encoding: UTF-8
-require_relative '../../../puppet_x/cups/facts'
-require_relative '../../../puppet_x/cups/queue'
+require '../../../puppet_x/cups/facts'
+require '../../../puppet_x/cups/queue'
 
 Puppet::Type.type(:cups_queue).provide(:cups) do
   @doc = 'Installs and manages CUPS queues.'
